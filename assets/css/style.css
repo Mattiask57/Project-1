@@ -59,8 +59,14 @@ h1, h2 {
 
 /* hero image */
 
+#hero-outer {
+    height: 620px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
-    height: 800px;
+    height: 620px;
     width: 130%;
     background: url('../images/pexels-markus-spiske-114296.jpg') no-repeat center center;
 }
