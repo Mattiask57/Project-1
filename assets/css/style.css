@@ -57,16 +57,42 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text */
 
 #hero-outer {
     height: 620px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #3a3a3a;
 }
 
 #hero-image {
     height: 620px;
     width: 130%;
     background: url('../images/pexels-markus-spiske-114296.jpg') no-repeat center center;
+}
+
+#cover-text {
+    font-size: 140%;
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(118, 241, 107, 0.7);
+
+    bottom: 30px;
+    right: 180px;
+
+    position: absolute;
 }
