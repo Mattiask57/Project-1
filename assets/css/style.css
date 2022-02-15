@@ -15,8 +15,44 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Quicksand. sans-serif;
+    font-family: Quicksand, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 290%;
+    margin-left: 35px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 80px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
