@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: Lora, sans-serif;
+    font-weight: 320;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Quicksand. sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
 }
