@@ -21,7 +21,7 @@ h1, h2 {
     color: #252525;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 290%;
     margin-left: 35px;
@@ -29,27 +29,27 @@ h1, h2 {
 
 /* navigation links */
 
-#menu {
+.menu {
     font-size: 120%;
     letter-spacing: 3px;
 }
 
-#menu, #logo {
+.menu, .logo {
     line-height: 80px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 35px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -59,7 +59,7 @@ h1, h2 {
 
 /* hero image and cover text */
 
-#hero-outer {
+.hero-outer {
     height: 620px;
     width: 100%;
     overflow: hidden;
@@ -67,55 +67,50 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+.cover-text, .cover-text h2 {
     color: #3a3a3a;
 }
 
-#hero-image {
+.hero-image {
     height: 620px;
     width: 130%;
     background: url('../images/pexels-markus-spiske-114296.jpg') no-repeat center center;
 }
 
-#cover-text {
+.cover-text {
     font-size: 140%;
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(118, 241, 107, 0.7);
-
     bottom: 30px;
     right: 180px;
-
     position: absolute;
 }
 
 /* football-association */
 
-#football-association {
-    height: 600 px;
+.football-association {
+    height: 600px;
 }
 
-#left-about {
+.left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about {
+.right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about {
+.center-about {
     width: 33%;
     margin: 0 auto;
 }
@@ -158,13 +153,13 @@ hr {
     text-align: center;
 }
 
-#welcome {
+.welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 290%;
 }
 
-#circle-container {
+.circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -175,8 +170,22 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
+.circle-cover-bg {
     background: url('../images/pexels-pixabay-209861.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+.signup {
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
+.berramedtanden {
+    text-align: center;
+    color: #ccc;
+    font-size: 290%;
+    position: relative;
 }
