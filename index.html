@@ -63,11 +63,24 @@
             </div>
         </div>
     </section>
-    <section class="signup">
-        <h2 class="berramedtanden">Sign Up</h2>
-        <div>
-            
-        </div>
+    <section class="form-section signup">
+        <h2>Sign Up</h2>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" required name="first_name" class="text-input">
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" required name="last_name" class="text-input">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" required name="email_address" class="text-input">
+            <label for="road"></label>
+            <input id="road" type="radio" required name="running_preference" value="road">
+            <label for="trail"></label>
+            <input id="trail" type="radio" required name="running_preference" value="trail">
+            <label for="both"></label>
+            <input id="both" type="radio" required name="running_preference" value="both">
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
     </section>
 </body>
 </html>
