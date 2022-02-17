@@ -201,7 +201,7 @@ th, td {
 
 /* Form */
 
-.form-section {
+#form-section {
     clear: left;
     background-size: cover;
     background-position: center;
@@ -209,7 +209,7 @@ th, td {
     background-color: #000000;
 }
 
-.form-section h1 {
+#form-section h1 {
         padding-top: 20px;
         color: #ffffff;
         margin-top: 20px;
@@ -262,29 +262,28 @@ th, td {
     color: #000000;
 }
 
-.contact {
+#contact {
     background-color: #ffffff;
     margin: 20px;
     height: 180px;
 }
 
-.contact h1 {
+#contact h1 {
     background-color: #ffffff;
     text-align: center;
     font-size: 290%;
 }
 
-.contact h2 {
+#contact h2 {
     text-align: center;
 }
 
-.contact p {
+#contact p {
     text-align: center;
     font-size: 130%;
 }
 
 footer {
-    height: 150px;
     background-color: #000000;
 }
 
@@ -304,3 +303,47 @@ footer {
     padding: 5%;
     color: #ffffff;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .football-association {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .football {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    .left-about, .right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
