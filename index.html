@@ -19,10 +19,10 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#home">Contact</a>
                 </li>
                 <li>
-                    <a href="#signup">Sign Up</a>
+                    <a href="#signup" >Sign Up</a>
                 </li>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -38,7 +38,7 @@
         </div>    
     </section>
     <section class="football-association">
-        <h2 class="welcome">Why Play Football With Us?</h2>
+        <h2 class="football">Why Play Football With Us?</h2>
         <div class="left-about">
             <div class="left-about-heading">
                 <h2>Fun</h2>
@@ -56,6 +56,26 @@
                     You get out of your home and meet new people, plus you get to play football.
                 </p>
             </div>
+            <div class="times">
+                <h3>What days and times do we play?</h3>
+                <table>
+                <tr>
+                    <th>Days</th>
+                    <th>Starts</th>
+                    <th>Ends</th>	
+                </tr>
+                <tr>
+                    <td>Wednesdays</td>
+                    <td>18:00</td>
+                    <td>19:30</td>
+                </tr>
+                <tr>
+                    <td>Sundays</td>
+                    <td>11:00</td>
+                    <td>12:30</td>
+                </tr>	
+                </table>
+            </div>
         </div>
         <div class="center-about">
             <div class="circle-container">
@@ -63,9 +83,9 @@
             </div>
         </div>
     </section>
-    <section class="form-section signup">
-        <h2>Sign Up</h2>
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+    <section class="form-section">
+        <h1 class="signup">Sign Up</h1>
+        <form method="POST" action="https://formdump.codeinstitute.net" class="signup-form">
             <h2>Sign up for some football!<i class="fas fa-heartbeat"></i></h2>
             <label for="fname">First Name</label>
             <input id="fname" type="text" required name="first_name" class="text-input">
@@ -73,15 +93,42 @@
             <input id="lname" type="text" required name="last_name" class="text-input">
             <label for="email">Email Address</label>
             <input id="email" type="email" required name="email_address" class="text-input">
-            <label for="road"></label>
-            <input id="road" type="radio" required name="running_preference" value="">
-            <label for="trail"></label>
-            <input id="trail" type="radio" required name="running_preference" value="">
-            <label for="both"></label>
+            <label for="wed">Wednesday</label>
+            <input id="wed" type="radio" required name="running_preference" value="wed">
+            <label for="sun">Sunday</label>
+            <input id="sun" type="radio" required name="running_preference" value="sun">
+            <label for="both">Both</label>
             <input id="both" type="radio" required name="running_preference" value="both">
             <input type="submit" value="Submit" class="submit-button">
         </form>
     </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <h3>Do you have question? Get in touch!</h3>
+        <p>070 111 222 333 | info.football.mariestad@gmail.com
+            Mariestad Football Association, 1 King Street, Mariestad
+        </p>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
 
