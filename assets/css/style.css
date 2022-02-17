@@ -186,13 +186,13 @@ hr {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 40px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    background-color: rgba(68, 158, 75, 0.6);
+    max-width: 360px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    right: 5%;
+    padding: 15px;
 }
 
 .signup-form > h2 {
@@ -211,7 +211,7 @@ hr {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #000000;
 }
 
 .join-button {
@@ -227,7 +227,7 @@ hr {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #000000;
 }
 
 .signup {
