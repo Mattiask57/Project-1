@@ -103,6 +103,7 @@ h1, h2 {
 
 .football-association {
     height: 500px;
+    margin-bottom: 80px;
 }
 
 .left-about {
@@ -183,14 +184,19 @@ hr {
     border-radius: 50%;
 }
 
+.times {
+    margin-left: 30px;
+}
+
 th, td {
     border-bottom: 1px solid #000000;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000000;
     padding: 5px;
     left: 80px;
     top: 300px;
     text-align: left;
+    margin: 20px 0;
 }
 
 /* Form */
@@ -203,8 +209,9 @@ th, td {
     background-color: #000000;
 }
 
-.signup {
-        color: #fff;
+.form-section h1 {
+        padding-top: 20px;
+        color: #ffffff;
         margin-top: 20px;
         margin-left: 20px;
         text-align: center;
@@ -216,22 +223,22 @@ th, td {
     background-color: #006400;
     max-width: 360px;
     position: absolute;
-    right: 1%;
+    right: -4%;
     padding: 15px;
 }
 
 .signup-form > h2 {
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fff;
+    color: #ffffff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 2px;
 }
 
@@ -246,17 +253,23 @@ th, td {
     text-align: center;
     font-size: 100%;
     background-color: #3327a0;
-    color: #fff;
+    color: #ffffff;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000000;
 }
 
+.contact {
+    background-color: #ffffff;
+    margin: 20px;
+    height: 180px;
+}
+
 .contact h1 {
-    background-color: #fff;
+    background-color: #ffffff;
     text-align: center;
     font-size: 290%;
 }
@@ -272,10 +285,13 @@ th, td {
 
 footer {
     height: 150px;
+    background-color: #000000;
 }
 
 .social-networks {
     text-align: center;
+    height: 150px;
+    background-color: #000000;
 }
 
 .social-networks > li {
@@ -286,5 +302,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #000000;
+    color: #ffffff;
 }
