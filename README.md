@@ -59,9 +59,11 @@ This website is for a football association. The site is responsive to most devic
 *   ### Wireframes
 
 
-    -    Desktop Wireframe - [View]
+    -    Start screen Desktop Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Desktops.png" width="210"></h2>
 
-    -    Mobile Wireframe - [View]
+    -    Start screen Mobile Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Phones.png" width="210"></h2>
 
 
 ## Features
@@ -96,17 +98,71 @@ This website is for a football association. The site is responsive to most devic
 
 
         - The Sign Up Page gives the user a chance to sign up to the website.
+
+
+## Technologies Used
+
+
+### Languages Used
+
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+
+### Frameworks, Libraries & Programs Used
+
+
+
+1. [Google Fonts:](https://fonts.google.com/)
+
+    - Google fonts were used to import the Lato and Krona one fonts to the website.
+
+2. [Font Awesome:](https://fontawesome.com/)
+
+    - Font Awesome was used to import icons to the social network in the footer.
+
+3. [Git](https://git-scm.com/)
+
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+4. [GitHub:](https://github.com/)
+
+    - GitHub is used to store the projects code after being pushed from Git.
+
+5. [Balsamiq:](https://balsamiq.com/)
+
+    - Balsamiq was used to create the wireframes during the planning process.
+
+
+## Testing
+
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+
+-   HTML
+
+     - No errors were returned when passing through the official W3C validator
+
+-   CSS
+
+     - No errors were returned when passing through the official W3C validator
+
+- Accessibility
+
+    - I used the lighthouse tool from chrome dev tools to harmonize the colors.
+
+<h2 align="left"><img src="assets/Wireframes/Lighthouse.jpg"></h2>
+
         
 ### Further Testing
 
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-
--   A large amount of testing was done to ensure that all pages were linking correctly.
-
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneSE & iPhoneX.
 
 
 ### Known Bugs
