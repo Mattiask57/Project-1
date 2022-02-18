@@ -6,7 +6,7 @@
 This website is for a football association. The site is responsive to most devices and easy to navigate for users of all kind.
 
 
-<h2 align="center"><!--Project on multiple devices here --></h2>
+- <h2 align="left"><img src="assets/Wireframes/Responsive-image.png"></h2>
 
 
 ## User Experience (UX)
@@ -64,9 +64,6 @@ This website is for a football association. The site is responsive to most devic
 
     -    Start screen Mobile Wireframe
     <h2 align="left"><img src="assets/Wireframes/Phones.png" width="210"></h2>
-
-    -    Responsive Images
-    <h2 align="left"><img src="assets/Wireframes/Responsive-image.png"></h2>
 
 
 ## Features
