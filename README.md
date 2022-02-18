@@ -18,11 +18,9 @@ This website is for a football association. The site is responsive to most devic
     -   #### First Time Visitor Goals
 
 
-        1. As a First Time Visitor, I want to understand the website and be able to investigate more about the establishment.
+        1. As a First Time Visitor, I want to understand the website and be able to investigate more about the association.
 
-        2. As a First Time Visitor, I want to be able to navigate fast on the website to learn more about the establishment.
-
-        3. As a First Time Visitor, I want to know where i can find the establishment, what to expect and what the prices are.
+        2. As a First Time Visitor, I want to be able to navigate fast on the website to learn more about the association.
 
 
     -   #### Returning Visitor Goals
@@ -55,7 +53,7 @@ This website is for a football association. The site is responsive to most devic
 
     -   #### Imagery
 
-        -   The imagery is there to get you to understand what the site is about, show information about the establishment and for the customer to see the establishment in action.
+        -   The imagery is there to get you to understand what the site is about, show information about the association.
 
 
 *   ### Wireframes
@@ -72,19 +70,19 @@ This website is for a football association. The site is responsive to most devic
 -   #### Navigation
 
 
-        - At the top of the page in the header which navigates to different sections and pages of the website.
+        - At the top of the page in the header which navigates to different sections of the website.
 
 
 -   #### The Header
 
 
-        - The header shows the contains the name of the establishment and the navigation bar.
+        - The header contains the name of the association and the navigation bar.
 
 
--   #### About Us Section
+-   #### Football Association Section
 
 
-        - The About us section contains details about the establishment and what it has to offer.
+        - The About us section contains details about the association.
 
 
 -   #### Contact Section
@@ -220,6 +218,3 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 
 -   My Mentor for continuous helpful feedback.
-
-
--   Tutor support at Code Institute for their support.
